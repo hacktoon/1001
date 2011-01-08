@@ -16,6 +16,8 @@ Referências:
     http://pt.wikipedia.org/wiki/Bogosort
 =end
 
+require 'test/unit'
+
 class Array
   def bozosort
     list = self.sort
@@ -25,9 +27,6 @@ class Array
     self
   end
 end 
-
-require 'test/unit'
-require 'lib/bozosort'
 
 class TestBozosort < Test::Unit::TestCase
   def test_bozosort
