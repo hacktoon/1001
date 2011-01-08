@@ -8,6 +8,9 @@ Descrição: Embaralha um vetor indefinidamente, até que os números estejam em
 Complexidade:  
     Pior caso: O(infinito)
     Melhor caso: O(n)
+Referências:
+    http://nerdson.com/blog/libbozo-01/
+    http://pt.wikipedia.org/wiki/Bogosort
 """
 
 from random import shuffle
