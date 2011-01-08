@@ -2,12 +2,17 @@
 
 /*
 Bissexto
-Autor: Sérgio Mandrake <sergio_mandrake@yahoo.com.br>
-Tipo: Date
-Descrição: Calcula os próximos anos bissexto
-Complexidade: ?
+Autor:
+    Sérgio Mandrake <sergio_mandrake@yahoo.com.br>
+Tipo:
+    date
+Descrição:
+    Calcula os próximos anos bissextos
+Complexidade:
+    Pior caso: ?
+    Melhor caso: ?
 Dificuldade:
-    Fácil
+    facil
 Referências:
     http://pt.wikipedia.org/wiki/Ano_bissexto#Calend.C3.A1rio_Gregoriano
 */

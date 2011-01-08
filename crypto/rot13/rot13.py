@@ -2,7 +2,10 @@
 
 """
 ROT13
-Autor: Fernando Medeiros <fekomedeiros - at - gmail.com>
+Autor:
+    Fernando Medeiros <fekomedeiros - at - gmail.com>
+Tipo:
+    sequence
 Descrição: 
     Implementação do algoritmo ROT-13, ou "Rotate By 13".
     É um procedimento simples mas eficaz para garantir que textos eletrônicos 
@@ -10,7 +13,10 @@ Descrição:
     Util para proteger mensagens que talvez o leitor não queira ler. 
     Exemplo, "spoilers" sobre determinado assunto em Fóruns ou listas de discussão.
 Complexidade:
-    Muito fácil
+    Pior caso: ?
+    Melhor caso: ?
+Dificuldade:
+    facil
 Referências:
     http://pt.wikipedia.org/wiki/ROT13
 """

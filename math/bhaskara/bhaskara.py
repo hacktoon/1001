@@ -2,13 +2,17 @@
 
 """
 Bhaskara
-Autor: Bhaskara Akaria [1]
-Tipo: Matemática
-Descrição: Calcula as raízes de uma equação de segundo grau
+Autor:
+    Bhaskara Akaria [1]
+Tipo:
+    math
+Descrição:
+    Calcula as raízes de uma equação de segundo grau
 Complexidade:  
     Pior caso: O(1)
     Melhor caso: O(1)
-
+DIficuldade:
+    facil
 Referências:
     [1] http://pt.wikipedia.org/wiki/Bhaskara_Akaria
 """

@@ -1,10 +1,15 @@
 #|
 Formula de Bhaskara 
-
-Autor:     Bhaskara Akaria
-Tipo:      Matematica
-Descricao: Calcula as raizes de uma equacao de segundo grau 
-Complexidade: O(1)
+Autor:
+    Bhaskara Akaria
+Tipo:
+    math
+Descricao:
+    Calcula as raizes de uma equacao de segundo grau 
+Complexidade:
+    O(1)
+Dificuldade:
+    facil
 |#
 
 (defun delta-calc (a b c)

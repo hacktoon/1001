@@ -2,13 +2,18 @@
 
 """
 Bubblesort
-Autor: Desconhecido
-Tipo: Ordenação de vetores
-Descrição: Varre o vetor comparando cada um dos pares de números
+Autor:
+    ?
+Tipo:
+    sorting
+Descrição:
+    Varre o vetor comparando cada um dos pares de números
     possíveis e trocando suas posições no vetor se necessário
 Complexidade:  
     Pior caso: O(n²)
     Melhor caso: O(n)
+Dificuldade:
+    facil
 Referências:
     http://en.wikipedia.org/wiki/Bubble_sort
 """

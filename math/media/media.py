@@ -2,14 +2,19 @@
 
 """
 Cálculo da média ponderada
-Autor: Desconhecido
-Tipo: Matemática
-Descrição: Calcula a média ponderada - é um algoritmo
+Autor:
+    ?
+Tipo:
+    math
+Descrição:
+    Calcula a média ponderada - é um algoritmo
     comum em qualquer curso de introdução à programação,
     que pode variar de acordo com os pesos.
 Complexidade:  
     Pior caso: O(1)
     Melhor caso: O(1)
+Dificuldade:
+    facil
 """
 
 import math

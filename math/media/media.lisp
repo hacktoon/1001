@@ -1,9 +1,15 @@
 #|
 Calculo de media ponderada
-Autor: Desconhecido
-Tipo:  Matematica
-Desc.: Calcula a media ponderada entre tres numeros.
-Complexidade: O(1)
+Autor:
+    ?
+Tipo:
+    math
+Descricao:
+    Calcula a media ponderada entre tres numeros.
+Complexidade:
+    O(1)
+Dificuldade:
+    facil
 |#
 
 (defun media (a b c &optional (peso-a 1) (peso-b 1) (peso-c 1))

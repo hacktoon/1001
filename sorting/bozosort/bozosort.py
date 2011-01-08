@@ -2,12 +2,17 @@
 
 """
 Bozosort
-Autor: Bozo
-Tipo: Ordenação de vetores
-Descrição: Embaralha um vetor indefinidamente, até que os números estejam em ordem.
+Autor:
+    Bozo
+Tipo:
+    sorting
+Descrição:
+    Embaralha um vetor indefinidamente, até que os números estejam em ordem.
 Complexidade:  
     Pior caso: O(infinito)
     Melhor caso: O(n)
+Dificuldade:
+    facil
 Referências:
     http://nerdson.com/blog/libbozo-01/
     http://pt.wikipedia.org/wiki/Bogosort

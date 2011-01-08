@@ -2,13 +2,17 @@
 
 /*
 Token
-Autor: Sérgio Mandrake <sergio_mandrake@yahoo.com.br>
-Tipo: sequence
-Descrição: Gera um token aleatório
+Autor:
+    Sérgio Mandrake <sergio_mandrake@yahoo.com.br>
+Tipo:
+    sequence
+Descrição:
+    Gera um token aleatório
 Complexidade:
     Pior caso: ?
     Melhor caso: ?
-Dificuldade: fácil
+Dificuldade:
+    facil
 */
 
 function token($comprimento = 6) {

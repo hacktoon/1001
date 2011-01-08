@@ -2,9 +2,12 @@
 
 """
 Algoritmo de Euclides
-Autor: Euclides de Alexandria
-Tipo: Teoria dos números
-Descrição: Algoritmo de Euclides em sua forma moderna. Computa o máximo
+Autor:
+    Euclides de Alexandria
+Tipo:
+    number-theory
+Descrição:
+    Algoritmo de Euclides em sua forma moderna. Computa o máximo
     divisor comum (MDC) entre dois números inteiros. Parte do princípio de
     que o MDC não muda se o menor número for subtraído do maior. [1] [2]
 Complexidade:
@@ -12,6 +15,8 @@ Complexidade:
     O número de passos é no máximo
         log(max(a, b) * sqrt(5)) / log(phi),
     onde phi = 1.618... é a proporção áurea. [3]
+Dificuldade:
+    facil
 Referências:
     [1] http://en.wikipedia.org/wiki/Euclidean_algorithm
     [2] http://pt.wikipedia.org/wiki/Algoritmo_de_Euclides
