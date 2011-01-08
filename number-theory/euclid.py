@@ -23,4 +23,4 @@ def euclides(a, b):
         a, b = b, a % b
     return a
 
-print euclides(1071, 462)
+print(euclides(1071, 462))
