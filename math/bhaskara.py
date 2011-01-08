@@ -28,4 +28,4 @@ def bhaskara(a, b, c):
         raizes.append(r2)
         return raizes
 
-print bhaskara(1, -1, -2)
+print(bhaskara(1, -1, -2))
