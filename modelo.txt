@@ -1,0 +1,26 @@
+
+/*
+Nome do algoritmo
+Autor:
+    Nome do autor ou ? caso nao saiba
+Colaborador:
+    Seu nome e email
+Tipo:
+    tipo do algoritmo (em ingles, minusculo, separado por hifen)
+    Exemplos: math, number-theory, sorting
+Descrição:
+    O que este algoritmo faz? Serve pra que? Tente explicar
+    da melhor forma possivel, ja que este projeto tem como
+    publico-alvo os iniciantes.
+Complexidade:  
+    O(n) ou ?, caso nao saiba
+Dificuldade:
+    facil, medio ou dificil
+Referências: (opcional)
+    links de referencia, um por linha
+Licenca:(opcional)
+    GPL, BSD...
+*/
+
+
+/* seu codigo */
