@@ -11,7 +11,7 @@ Descrição:
 	possíveis e trocando suas posições no vetor se necessário
 Complexidade:
 	Pior caso: O(n²)
-	Melhor caso: O(n)
+	Melhor caso: O(n²)
 Dificuldade:
 	facil
 Referências:
@@ -20,8 +20,6 @@ Referências:
 
 	function bubble($valores) {
 		$ordenado = false;
-		$certo = $valores;
-		sort($certo);
 		
 		for($i=0;$i<count($valores);$i++) {
 			for($x=0;$x<count($valores);$x++) {

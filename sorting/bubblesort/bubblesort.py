@@ -11,7 +11,7 @@ Descrição:
     possíveis e trocando suas posições no vetor se necessário
 Complexidade:  
     Pior caso: O(n²)
-    Melhor caso: O(n)
+    Melhor caso: O(n²)
 Dificuldade:
     facil
 Referências:
