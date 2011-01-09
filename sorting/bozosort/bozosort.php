@@ -4,13 +4,14 @@
 Bozosort (a.k.a Bogosort)
 Autor: 
 	Bozo
+Colaborador:
+    ?
 Tipo: 
 	sorting
 Descrição: 
 	Ordena um array a fim de ficar em ordem crescente.
 Complexidade:
-	Pior caso: Infinito
-	Melhor caso: ?
+	O(infinito)
 Dificuldade:
 	facil
 Referências:

@@ -4,13 +4,14 @@
 Bhaskara
 Autor: 
 	Bhaskara Akaria [1]
+Colaborador:
+    ?
 Tipo: 
 	math
 Descrição: 
 	Calcula as raízes de uma equação de segundo grau
 Complexidade:
-	Pior caso: O(1)
-	Melhor caso: O(1)
+	O(1)
 Dificuldade:
 	facil
 Referências:

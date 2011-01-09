@@ -2,6 +2,8 @@
 Calculo de media ponderada
 Autor:
     ?
+Colaborador:
+    Daniel Valio    
 Tipo:
     math
 Descricao:

@@ -1,6 +1,8 @@
 /*
 nums2words
 Autor:
+    ? 
+Colaborador:
     Stanislaw Pusep 
 Tipo:
     lang
@@ -9,8 +11,7 @@ Descrição:
     Exemplo:
         9223372036854775807 (maior inteiro positivo de 64 bits) => "nove quinqualhões e duzentos e vinte e três quatrilhões e trezentos e setenta e dois trilhões e trinta e seis bilhões e oitocentos e cinqüenta e quatro milhões e setecentos e setenta e cinco mil e oitocentos e sete"
 Complexidade:
-    Pior caso: ?
-    Melhor caso: ?
+    ?
 Dificuldade:
     medio
 Referências: 

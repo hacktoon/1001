@@ -4,6 +4,8 @@
 Algoritmo de Euclides
 Autor:
     Euclides de Alexandria
+Colaborador:
+    Liquen 
 Tipo:
     number-theory
 Descrição:
@@ -11,7 +13,7 @@ Descrição:
     divisor comum (MDC) entre dois números inteiros. Parte do princípio de
     que o MDC não muda se o menor número for subtraído do maior. [1] [2]
 Complexidade:
-    Pior caso: O(n^2), onde n é o número de dígitos da entrada. [3]
+    O(n^2), onde n é o número de dígitos da entrada. [3]
     O número de passos é no máximo
         log(max(a, b) * sqrt(5)) / log(phi),
     onde phi = 1.618... é a proporção áurea. [3]
