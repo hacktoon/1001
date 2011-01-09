@@ -22,12 +22,12 @@ def anoBissexto(anos)
 	proximoAno = anoAtual + anos
 	bissextos = []
 	(anoAtual..proximoAno).each do |ano|
-		if ano%4 == 0
+		if (ano%4 == 0) && (ano % 100 != 0 || ano % 400 == 0)
 			bissextos << ano
 		end
 	end
 	bissextos
 end
 
-puts anoBissexto(20)
+puts anoBissexto(100)
 
