@@ -3,14 +3,15 @@
 /*
 Bissexto
 Autor:
+    ?
+Colaborador:
     Sérgio Mandrake <sergio_mandrake@yahoo.com.br>
 Tipo:
     date
 Descrição:
     Calcula os próximos anos bissextos
 Complexidade:
-    Pior caso: ?
-    Melhor caso: ?
+    ?
 Dificuldade:
     facil
 Referências:

@@ -4,6 +4,8 @@
 Cálculo da média ponderada
 Autor:
     ?
+Colaborador:
+    Karlisson Bezerra
 Tipo:
     math
 Descrição:
@@ -11,8 +13,7 @@ Descrição:
     comum em qualquer curso de introdução à programação,
     que pode variar de acordo com os pesos.
 Complexidade:  
-    Pior caso: O(1)
-    Melhor caso: O(1)
+    O(1)
 Dificuldade:
     facil
 """

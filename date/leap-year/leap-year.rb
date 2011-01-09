@@ -2,14 +2,15 @@
 
 Bissexto
 Autor:
+    ?
+Colaborador:
     Bruno Lara Tavares <bruno.exz . at . gmail . com>
 Tipo:
     date
 Descrição:
     Calcula os próximos anos bissextos
 Complexidade:
-    Pior caso: ?
-    Melhor caso: ?
+    ?
 Dificuldade:
     facil
 Referências:

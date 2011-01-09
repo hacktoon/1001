@@ -4,13 +4,14 @@
 Cálculo de fatorial
 Autor:
     ?
+Colaborador:
+    ?
 Tipo:
     math
 Descrição:
     Calcula o fatorial de um número
 Complexidade:  
-    Pior caso: ?
-    Melhor caso: ?
+    ?
 Dificuldade:
     facil
 """

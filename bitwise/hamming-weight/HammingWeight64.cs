@@ -7,8 +7,7 @@
 //    Conta o número de bits ligados
 //    em um inteiro de 64 bits.
 //Complexidade:  
-//    Pior caso: O(1)
-//    Melhor caso: O(1)
+//    O(1)
 //Dificuldade:
 //    facil
 //Referências:

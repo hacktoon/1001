@@ -2,6 +2,8 @@
  * BuscaBinaria
  * Autor:
  *     Jon Bentley
+ * Colaborador:
+ *     Fabiano Sobreira
  * Tipo:
  *     search
  * Descrição:
@@ -11,8 +13,7 @@
  *     e realiza sucessivas divisões do espaço de busca (divisão e conquista)
  *     comparando o elemento buscado (chave) com o elemento no meio do vetor.
  * Complexidade:
- *     Pior caso: ?
- *     Melhor caso: ?
+ *     ?
  * Dificuldade:
  *     fácil
  * Referências:

@@ -2,6 +2,8 @@
 Algoritmo para Escalonar Sistemas Lineares
 Autor:
     ?
+Colaborador:
+    ?
 Tipo:
     math
 Descrição:
