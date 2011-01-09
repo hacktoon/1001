@@ -1,6 +1,6 @@
 //BitScanForward com De Bruijn (64 bits)
 //Autor:
-//    Juan Lopes <juanplopes@gmail.com>
+//     Nicolaas Govert de Bruijn
 //Tipo:
 //    bitwise
 //Descrição:

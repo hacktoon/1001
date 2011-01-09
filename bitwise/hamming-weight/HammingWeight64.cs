@@ -1,6 +1,6 @@
 //Hamming Weight (64 bits)
 //Autor:
-//    Juan Lopes <juanplopes@gmail.com>
+//    ?
 //Tipo:
 //    bitwise
 //Descrição:
