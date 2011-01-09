@@ -4,7 +4,7 @@ Cálculo de fatorial
 Autor:
     ?
 Colaborador:
-    ?
+    Bruno Lara Tavares <bruno.exz@gmail.com>
 Tipo:
     math
 Descrição:
