@@ -23,7 +23,7 @@ function bissexto($numAnos = 4) {
     
     $anos = array();
     for ($i = $anoAtual; $i <= $anoFinal; $i++) {
-        if (($i % 4) == 0) {
+        if ($i % 4 == 0 and ($i % 100 or $i % 400 == 0)) {
             $anos[] = $i;
         }
     }
