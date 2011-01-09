@@ -2,6 +2,8 @@
 Formula de Bhaskara 
 Autor:
     Bhaskara Akaria
+Colaborador:
+    Daniel Valio
 Tipo:
     math
 Descricao:

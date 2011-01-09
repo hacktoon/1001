@@ -3,14 +3,15 @@
 /*
 Bissexto
 Autor:
+    ?
+Colaborador:
     Sérgio Mandrake <sergio_mandrake@yahoo.com.br>
 Tipo:
     date
 Descrição:
     Calcula os próximos anos bissextos
 Complexidade:
-    Pior caso: ?
-    Melhor caso: ?
+    ?
 Dificuldade:
     facil
 Referências:
@@ -23,7 +24,7 @@ function bissexto($numAnos = 4) {
     
     $anos = array();
     for ($i = $anoAtual; $i <= $anoFinal; $i++) {
-        if ($i % 4 == 0 && ($i % 100 != 0 || $i % 400 == 0)) {
+        if ($i % 4 == 0 and ($i % 100 or $i % 400 == 0)) {
             $anos[] = $i;
         }
     }

@@ -3,6 +3,8 @@
 """
 ROT13
 Autor:
+    ?
+Colaborador:
     Fernando Medeiros <fekomedeiros - at - gmail.com>
 Tipo:
     sequence
@@ -13,8 +15,7 @@ Descrição:
     Util para proteger mensagens que talvez o leitor não queira ler. 
     Exemplo, "spoilers" sobre determinado assunto em Fóruns ou listas de discussão.
 Complexidade:
-    Pior caso: ?
-    Melhor caso: ?
+    ?
 Dificuldade:
     facil
 Referências:

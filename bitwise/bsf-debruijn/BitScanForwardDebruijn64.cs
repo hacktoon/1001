@@ -6,8 +6,7 @@
 //Descrição:
 //    Encontra o índice do LSB (Least Significant Bit) em O(1)
 //Complexidade:  
-//    Pior caso: O(1)
-//    Melhor caso: O(1)
+//    O(1)
 //Dificuldade:
 //    facil
 //Referências:

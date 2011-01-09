@@ -2,14 +2,15 @@
 Crivo de Eratóstenes
 Autor:
     Eratóstenes de Cirene
+Colaborador:
+    ?
 Tipo:
     number-theory
 Descrição:
     O Crivo de Eratóstenes implementado em C++. É um algoritmo que
     serve para encontrar todos os números primos até um limite especificado.
 Complexidade:
-    Pior caso: O(n log log n)
-    Melhor caso: O(n log log n)
+    O(n log log n)
 Dificuldade:
     medio
 Referências: 

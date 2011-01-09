@@ -4,13 +4,14 @@
 Bozosort
 Autor:
     Bozo
+Colaborador:
+    Karlisson Bezerra
 Tipo:
     sorting
 Descrição:
     Embaralha um vetor indefinidamente, até que os números estejam em ordem.
 Complexidade:  
-    Pior caso: O(infinito)
-    Melhor caso: O(n)
+    O(infinito)
 Dificuldade:
     facil
 Referências:
