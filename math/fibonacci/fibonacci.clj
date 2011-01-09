@@ -1,15 +1,15 @@
 (comment 
 Cálculo da sequência de Fibonacci
 Autor 
-  ? 
+    ? 
 Colaborador
-Guilherme Victal (guilhermevictal em gmail.com) 
+    Guilherme Victal (guilhermevictal em gmail.com) 
 Tipo
-  math
+    math
 Descrição 
-  Cálculo do n-ésimo valor da sequência de fibonacci recursivamente,
-  a partir da definição [a[n]=a[n-1] + a[n-2], a[0]=a[1]=1]
-  Na prática é muito lento mesmo para n não muito grande;
+    Cálculo do n-ésimo valor da sequência de fibonacci recursivamente,
+    a partir da definição [a[n]=a[n-1] + a[n-2], a[0]=a[1]=1]
+    Na prática é muito lento mesmo para n não muito grande;
 Complexidade
   ? 
 Dificuldade
