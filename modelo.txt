@@ -2,7 +2,7 @@
 /*
 Nome do algoritmo
 Autor:
-    Nome do autor ou ? caso nao saiba
+    Nome do autor do algoritmo ou ? caso nao saiba
 Colaborador:
     Seu nome e email
 Tipo:
@@ -13,7 +13,7 @@ Descrição:
     da melhor forma possivel, ja que este projeto tem como
     publico-alvo os iniciantes.
 Complexidade:  
-    O(n) ou ?, caso nao saiba
+    O(n), O(n^2)... ou ?, caso nao saiba
 Dificuldade:
     facil, medio ou dificil
 Referências: (opcional)
