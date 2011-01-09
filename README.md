@@ -9,7 +9,7 @@ Please read [http://nerdson.com/blog/1001-noites/](http://nerdson.com/blog/1001-
 **Nome do algoritmo**
 
 **Autor:**
-    Mr. Code
+    Nome do criador
 **Colaborador:**
     Seu nome <seunome@mail.com>
 **Tipo:**
@@ -23,6 +23,8 @@ Please read [http://nerdson.com/blog/1001-noites/](http://nerdson.com/blog/1001-
     O(n)
 **Dificuldade:**
     facil, medio ou dificil?
+**Referencias**
+    (se houver)
 
 (fecha comentario)
 
