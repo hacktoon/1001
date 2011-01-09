@@ -3,8 +3,8 @@ Bubble sort
 Autor: Desconhecido
 Tipo:  Ordenacao de vetores
 Descricao: Compara elementos dois a dois e checa se estao na ordem correta.
-Complexidade: Pior caso: O(n^2)
-            Melhor caso: O(n)
+Complexidade: Pior caso: O(n²)
+            Melhor caso: O(n²)
 |#
 
 (defun bubble-sort (array)
