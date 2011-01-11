@@ -12,7 +12,6 @@ Complexidade:
     0(1)
 Dificuldade:
     facil
-
 */
 
 #include <stdio.h>
