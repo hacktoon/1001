@@ -1,0 +1,19 @@
+#|
+Crivo de Eratostenes
+Autor:
+    Eratostones de Cirene
+Colaborador:
+    Daniel Valio <valium97@mail.com>
+Tipo:
+    number-theory
+Descricao:
+    O Crivo de Eratostenes encontra todos os primos ate' um limite especificado.
+Complexidade:
+    O(n log( log n ))
+Dificuldade:
+    Facil/medio
+|#
+
+(do ((i 1 (1+ i))
+     (parada (nth-value 1 (round (sqrt n)))))
+    ((<= i parada)
