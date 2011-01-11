@@ -1,0 +1,48 @@
+<?php
+/*
+Selection Sort
+Autor: 
+    ?
+Colaborador:
+    Maurício Sipmann (sipmann@gmail.com)
+Tipo: 
+    sorting
+Descrição: 
+    É um algoritmo de ordenação que consiste em pesquisar o menor elemento
+    e colocar na primeira posição, o segundo menor e colocar na segunda 
+    posição e assim sucessivamente, até que a sequência esteja ordenada.
+    É uma excelente escolha quando há necessidade quando o custo de 
+    escrita é alto, pois ele realiza em torno de 2n operações de escrita. [2]
+Complexidade de tempo: 
+    O(n²)
+Dificuldade: 
+    facil
+Referências:
+    [1] http://en.wikipedia.org/wiki/Selection_sort
+    [2] http://en.wikipedia.org/wiki/Selection_sort#Comparison_to_other_sorting_algorithms
+*/
+
+function selection_sort($a) {
+    
+    for ($i = 0; $i < count($a)-1; $i++) {
+        $min = $i;
+		
+        for ($j = $i + 1; $j < count($a); $j++)
+            if ( $a[$j] < $a[$min] )
+                $min = $j;
+                
+        $temp = $a[$i];
+        $a[$i] = $a[$min];
+        $a[$min] = $temp;
+    }
+	
+	return $a;
+}
+
+$a = array(6, -2, 3, 5, 7, 4, 3);
+$a = selection_sort($a);
+    
+for($i = 0; $i < 7; $i++)
+	echo $a[$i] ."<br>";
+
+?>
