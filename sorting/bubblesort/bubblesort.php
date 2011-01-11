@@ -4,6 +4,8 @@
 Bubblesort
 Autor: 
 	?
+Colaborador:
+	Maurício Sipmann (sipmann@gmail.com)
 Tipo: 
 	sorting
 Descrição: 
