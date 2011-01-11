@@ -5,7 +5,7 @@ Bozosort (a.k.a Bogosort)
 Autor: 
 	Bozo
 Colaborador:
-    ?
+    Maurício Sipmann (sipmann@gmail.com)
 Tipo: 
 	sorting
 Descrição: 
