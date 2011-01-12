@@ -8,7 +8,9 @@ Tipo
     math
 Descricao
     Calculo de Fn aonde F e' a sequencia de Fibonacci.
-    TODO: Fazer algo melhor que traduzir e exemplo em Clojure.
+    Note-se que, apesar de ser quase o mesmo co'digo
+    da versao em Clojure, esta e' muito mais ra'pida,
+    pois em Common Lisp ha' TCO (Tail Call Optimization).
 Complexidade
     ?
 Dificuldade
