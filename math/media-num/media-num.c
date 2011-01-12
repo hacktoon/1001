@@ -12,7 +12,10 @@ Complexidade:
     0(1)
 Dificuldade:
     facil
+<<<<<<< HEAD
+=======
 
+>>>>>>> 9bb9c79831232255550163f21f9098b8060bfae3
 */
 
 #include <stdio.h>
