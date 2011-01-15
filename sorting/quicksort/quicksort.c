@@ -1,5 +1,5 @@
 /*
-Nome do algoritmo
+Quicksort
 Autor:
     C.A.R. Hoare
 Colaborador:
