@@ -70,3 +70,7 @@ class Cesar(object):
             saida += chr(valor)
         
         return saida
+
+c = Cesar()
+print c.crypt("a ligeira raposa marrom saltou sobre o cachorro cansado", 3)
+print c.decrypt("D OLJHLUD UDSRVD PDUURP VDOWRX VREUH R FDFKRUUR FDQVDGR", 3)
