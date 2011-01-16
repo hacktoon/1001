@@ -28,11 +28,11 @@ int inverse(int input)
   return output;
 }
 
-int main(int argc, char* argv[])
+int main()
 {
-  int input = atoll(argv[1]);
-  int output= inverse(input);
-  printf("Numero=%d\ninverso=%d\n", input, output);
-  return 0;
+    int input = 12345;
+    int output= inverse(input);
+    printf("Numero=%d\ninverso=%d\n", input, output);
+    return 0;
 }
  
