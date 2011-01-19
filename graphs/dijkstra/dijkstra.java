@@ -23,7 +23,7 @@ Licenca:
 
 import java.util.ArrayList;
 
-public class Dijkstra {
+public class dijkstra {
 	
 	/**
 	 * Implementação do Algoritmo de Dijkstra
@@ -178,7 +178,6 @@ public class Dijkstra {
 		/**
 		 * Impressão da matrizResultado com a resposta do Algoritmo de Dijkstra
 		 */
-		System.out.println();
 		for(int contadorHorizontal = 0; contadorHorizontal < matrizResultado[0].length; contadorHorizontal++){
 			for(int contadorVertical = 0; contadorVertical < matrizResultado[0].length; contadorVertical++){
 				
@@ -186,7 +185,6 @@ public class Dijkstra {
 			}
 			
 			System.out.println();
-
 		}
 		
 	}
