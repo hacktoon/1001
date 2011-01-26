@@ -23,9 +23,8 @@ Referências:
     Belur V. Dasarathy, ed (1991). Nearest Neighbor (NN) Norms: NN Pattern Classification Techniques. ISBN 0-8186-8930-7.
 '''
 
-def knn(treino, entrada):
-	euclidiana = lambda a,b: sum([(c-d)**2 for c,d in zip(a,b)])
-	return min([[euclidiana(pe[:-1], entrada), pe[-1]] for pe in treino])[1]
+def knn(treino, padrao, distancia=lambda a,b: sum([(c-d)**2 for c,d in zip(a,b)])):
+	return min([[distancia(pe[:-1], padrao), pe[-1]] for pe in treino])[1]
 
 treino = [
 		[1,2,3,4,5,6,'classe 1'],
