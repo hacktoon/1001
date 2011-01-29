@@ -5,6 +5,19 @@
 Masochistic Sort
 Author:
     Dilan Nery <dnerylopes AT gmail DOT com>
+Colaborador:
+    Dilan Nery <dnerylopes AT gmail DOT com>
+Tipo:
+    Ordenação
+Descrição:
+    Testa todas combinações possiveis de uma lista até encontrar a combinação
+    em que a lista esteja ordenada
+Complexidade:
+    ?
+Dificuldade:
+    medio
+Licensa:
+    LGPL
 """
 
 def masoquist_sort(L):
