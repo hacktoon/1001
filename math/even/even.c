@@ -2,8 +2,9 @@
 Encontrando números Pares
 Autor:
     ???
-Colaborador:
+Colaboradores:
     Filipe Saraiva (filip.saraiva@gmail.com)
+    Pedro Arthur Duarte (pedroarthur.jedi@gmail.com)
 Tipo:
     math
 Descrição:
@@ -48,6 +49,15 @@ void numerosPares(int num){
 //   }
   
   printf("\n");
+}
+
+/* Via aritimética binária (maneira convencional) */
+void numerosPares_2(int num) {
+  int contador;
+  
+  for (contador = 0 ; contador <= num ; contador++)
+    if ((contador & 1) == 0)
+      printf("%d ", contador);
 }
 
 // Função main
