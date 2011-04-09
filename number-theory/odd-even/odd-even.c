@@ -2,19 +2,26 @@
 Par ou impar
 Autor:
     ?
-Colaborador:
-    Geraldo Neto email:glnetinho@hotmail.com
+Colaboradores:
+    Geraldo Neto email (glnetinho@hotmail.com)
+    Prdro Arthur Duarte (pedroarthur.jedi@gmail.com)
 Tipo:
     number-theory
 Descricao:
    Verifica se os números são impares ou pares.
 Complexidade:
-    ?
+    O(n), Através de operação módulo
+    O(1), Através de operador binário
 Dificuldade:
     facil
 */
 
 #include <stdio.h>
+
+/*
+  Macro: retorna 1 se o número for impar ou 0 caso contrário
+*/
+#define oddOrEven(a) ((a) & 1)
 
 void main(void)
 {
