@@ -29,7 +29,7 @@ def knn(k, treino, padrao, distancia=lambda a,b: sum([(c-d)**2 for c,d in zip(a,
 	return max(set([e[-1] for e in k_nearest]), key = [e[-1] for e in k_nearest].count)
 
 treino = [
-		[1,2,3,4,5,6,'classe 1'],
+	[1,2,3,4,5,6,'classe 1'],
         [1,2,3,3,5,6,'classe 1'],
         [2,3,5,6,7,8,'classe 2'],
         [9,9,9,9,9,9,'classe 3'],
