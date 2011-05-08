@@ -1,9 +1,12 @@
+# coding: utf-8
+
 """
 Mergesort
 Autor:
 	John von Neumann, em 1945
 Colaborador:
 	Adriano Melo (adriano@adrianomelo.com)
+	Dayvid Victor (victor.dvro@gmail.com)
 Tipo:
 	sorting
 Descrição:
@@ -18,11 +21,10 @@ Referências:
 """
 
 def intercala (inicio, fim):
-	minimo = min(len(inicio), len(fim))
 	result = []
 	i, j   = 0, 0
 
-	while i < minimo and j < minimo:
+	while i < len(inicio) and j < len(fim):
 		if inicio[i] < fim[j]:
 			result.append(inicio[i])
 			i = i + 1
@@ -48,4 +50,6 @@ def mergesort(array):
 	return intercala (inicio, fim)
 
 print mergesort ([2,8,-2,1,45,37,-463,24,50,80,4,3,7,4,55])
+print mergesort ([8,7,3,4,5])
+
 
