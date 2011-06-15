@@ -21,9 +21,22 @@ Referências:
 
 from random import shuffle
 
+def is_sorted(seq):
+  # We define an empty sequence to be sorted by default.
+  if not seq:
+      return True
+
+  # Otherwise, the sequence is sorted if every element is less or equal
+  # than the next one.
+  last = seq[0]
+  for element in seq:
+      if last > element:
+          return False
+      last = element
+  return True
+
 def bozosort(seq):
-    como_deve_ficar = sorted(seq)
-    while seq != como_deve_ficar:
+    while not is_sorted(seq):
         shuffle(seq)
     return seq
 
