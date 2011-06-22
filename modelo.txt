@@ -1,5 +1,5 @@
 
-/*
+"""
 Nome do algoritmo
 Autor:
     Nome do autor do algoritmo ou ? caso nao saiba
@@ -20,7 +20,6 @@ Referências: (opcional)
     links de referencia, um por linha
 Licenca:(opcional)
     GPL, BSD...
-*/
+"""
 
-
-/* seu codigo */
+#codigo
