@@ -1,6 +1,8 @@
 # 1001 algorithms you must implement before you die
 
-Vamos reunir 1001 implementações de algoritmos em um livro digital interativo (e talvez impresso) que servirá principalmente de aprendizado para quem colaborar e guia/referência para jovens aspirantes a programadores. Do Bozosort ao crivo de Eratóstenes, teremos de tudo!
+Vamos reunir 1001 implementações de algoritmos em um livro digital interativo que servirá principalmente de aprendizado para quem colaborar e guia/referência para jovens aspirantes a programadores. Do Bozosort ao crivo de Eratóstenes, teremos de tudo!
+
+Página do projeto: [http://labs.hacktoon.com/src/1001](http://labs.hacktoon.com/src/1001)
 
 Os códigos devem estar de acordo com os requisitos abaixo:
 
