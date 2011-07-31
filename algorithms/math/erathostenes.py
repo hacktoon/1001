@@ -27,7 +27,7 @@ def sieve(n):
     
     for i in xrange(2, int(sqrt(n))):
         if P[i]:
-            for j in xrange(i*2, n, i):
+            for j in xrange(i**2, n, i):
                 P[j] = False
     return P
 
