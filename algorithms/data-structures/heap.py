@@ -21,8 +21,13 @@ Referências: (opcional)
 """
 
 class BinaryHeap:
-    def __init__(self):
-        self.V = [None]
+    def __init__(self, V = []):
+        self.V = [None] + list(V)
+        self.heapify()
+        
+    def heapify(self):
+        for i in range(self.count()/2, 0, -1):
+            self.bubble_down(i)
         
     def count(self):
         return len(self.V) - 1
@@ -42,7 +47,11 @@ class BinaryHeap:
         self.V.pop()
         self.bubble_down(1)
         return value
-        
+   
+    def pop_all(self):
+        while self.count() > 0:
+            yield self.pop()
+   
     def bubble_up(self, n):
         while n != 1 and self.less(n, n/2):
             self.swap(n, n/2)
@@ -75,4 +84,8 @@ print heap.pop() #2
 print heap.pop() #5
 print heap.pop() #10
 
-        
+print
+print 'Heap sort'
+
+V = [10, 2, 5, -100]
+print V, '->', list(BinaryHeap(V).pop_all())
