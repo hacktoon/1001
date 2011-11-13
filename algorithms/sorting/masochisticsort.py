@@ -43,11 +43,7 @@ def is_sorted(L):
     for i in range(1,len(L)):
         if L[i-1] > L[i]:
             flag = False
-    if flag:
-        return True
-    else:
-        return False
-                
+    return flag                
 
 if __name__ == '__main__':
     teste1 = masoquist_sort([2,4,1,5,4])
