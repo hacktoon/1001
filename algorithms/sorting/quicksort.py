@@ -27,10 +27,11 @@ def quicksort(V):
     if len(V) <= 1: 
         return V
     
-    pivot = V.pop()
+    pivot = V[0]
+    equal = [x for x in V if x == pivot]
     lesser = [x for x in V if x < pivot]
-    greater = [x for x in V if x >= pivot]
-    return quicksort(lesser) + [pivot] + quicksort(greater)
+    greater = [x for x in V if x > pivot]
+    return quicksort(lesser) + equal + quicksort(greater)
 
 print quicksort([i for i in xrange(30)]) # worst case
 print quicksort([3 for i in xrange(30)]) # best case
