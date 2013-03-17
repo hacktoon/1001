@@ -5,6 +5,7 @@ Autor:
     C.A.R. Hoare
 Colaborador:
     Adriano Melo (adriano@adrianomelo.com)
+    Juan Lopes (me@juanlopes.net)
 Tipo:
     sorting
 Descrição:
@@ -22,25 +23,15 @@ Referências: (opcional)
 """
 from random import randint
 
-def quicksort (array):
-	if len(array) <= 1:
-		return array
-
-	pivot   = array.pop()
-	
-	smaller = []
-	equal   = [pivot]
-	larger  = []
-
-	for ele in array:
-		if ele < pivot:
-			smaller.append(ele)
-		elif ele > pivot:
-			larger.append(ele)
-		else:
-			equal.append(ele)
-
-	return quicksort(smaller) + equal + quicksort(larger)
+def quicksort(V):
+    if len(V) <= 1: 
+        return V
+    
+    pivot = V[0]
+    equal = [x for x in V if x == pivot]
+    lesser = [x for x in V if x < pivot]
+    greater = [x for x in V if x > pivot]
+    return quicksort(lesser) + equal + quicksort(greater)
 
 print quicksort([i for i in xrange(30)]) # worst case
 print quicksort([3 for i in xrange(30)]) # best case
