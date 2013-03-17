@@ -4,6 +4,8 @@ Autores:
     Edsger Dijkstra
 Colaborador:
     Luiz Rodrigo (luizrodri.go@hotmail.com)
+Alteração:
+	Péricles Lopes Machado (pericles.raskolnikoff@gmail.com)
 Tipo: 
     graphs
 Descrição: 
@@ -12,7 +14,7 @@ Descrição:
     implementação utilizando matriz de adjacências, que tem desempenho 
     inferior.
 Complexidade: 
-    O(|V|²)
+    O(|E| log |V|)
 Dificuldade: 
     medio
 Referências:
@@ -22,7 +24,11 @@ Referências:
 */
 
 #include <iostream>
+#include <queue>
+#include <vector>
 #include <stdio.h>
+
+using namespace std;
 
 /*
 Parâmetros:
@@ -40,36 +46,53 @@ Parâmetros:
     previous: vetor para armazenar o vértice anterior para chegar ao vértice atual
         (permite determinar as rotas).
 */
+
 void dijkstra(int dist[n][n], int origin, int min_dist[n], int previous[n]) {
-    int i, min, ncomputed = 0;
-    bool computed[n];
-    
+
+    // define a lista de adjascencias que é uma representação melhor 
+	// para o algoritmo de Dijkstra. Lembrando que representação é 
+	// uma parte importante na construção de um algoritmo eficiente
+
+	typedef vector<vector<int> > Graph;
+	Graph G(n);
+
     // inicializa (todas as menores distâncias como infinito)
-    for (i = 0; i < n; i++) { 
+    for (int i = 0; i < n; i++) { 
         min_dist[i] = INFINITY;
         previous[i] = -1;
-        computed[i] = false;
+
+		// cria a lista de adjascências
+		for (int j = 0; j < n; ++j)
+			if (i != j and dist[i][j] < INFINITY) {
+				G[i].push_back(j);
+			}
     }
     
     // exceto a da origem para a origem, que é 0
     min_dist[origin] = 0;
     
-    while ( ncomputed < n ) {
+	// heap utilizada para acelerar a busca pelo melhor opção atual
+	typedef pair<int, int> Pair;
+	priority_queue<Pair> Q;
+	
+	// a distancia atual para a origin é utilizada como primeira chave para a ordenação da heap
+	Q.push(Pair(0, origin));
+
+    while (!Q.empty()) {
+		int u = Q.top().second; 
+		Q.pop();
     
-        for (min = 0; computed[min]; min++);
-        
-        for (i = min + 1; i < n; i++)
-            if ( computed[i] == false && min_dist[i] < min_dist[min] )
-                min = i;        
-                
-        for (i = 0; i < n; i++)
-            if ( min_dist[min] + dist[min][i] < min_dist[i] ) {
-                min_dist[i] = min_dist[min] + dist[min][i];
-                previous[i] = min;
+        for (int i = 0; i < G[u].size(); i++) {
+			int v = G[u][i];
+            if  (min_dist[u] + dist[u][v] < min_dist[i]) {
+                min_dist[v] = min_dist[u] + dist[u][v];
+                previous[v] = u;
+
+				// como a priority_queue utiliza a chave de mais alta prioridade para ordenar
+				// basta multiplar por -1 a estimativa atual para ordenar adequadamente a heap
+				Q.push(Pair(-min_dist[v], v));
             }
-        
-        computed[min] = true;
-        ncomputed++;
+		}
     }
 }
 
@@ -103,3 +126,4 @@ int main( ) {
         
     return 0;
 }
+
