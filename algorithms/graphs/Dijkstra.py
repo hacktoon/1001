@@ -10,9 +10,8 @@ Tipo:
     graphs
 Descrição: 
     O Algoritmo de Dijsktra é um algoritmo em grafos clássico que determina a
-    menor distância de um determinado vértice para todos os outros. Essa é a
-    implementação utilizando matriz de adjacências, que tem desempenho 
-    inferior.
+    menor distância de um determinado vértice para todos os outros. Nessa implementação
+	utiliza-se uma heap
 Complexidade: 
     O(|E| log |V|)
 Dificuldade: 
