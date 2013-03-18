@@ -166,7 +166,8 @@ bool solve(V& s){
 	int i, j, x, y, a, b, set;
 	int px, py, mi, l, ns;
 	bool ok;
-	
+
+	/*Inicializa opções para cada linha coluna e setor*/
 	for(i=0;i<2;i++) podeCol.v[i]=podeSet.v[i]=podeLin.v[i]=inf;
 	
 	ok=true;
@@ -183,10 +184,17 @@ bool solve(V& s){
 			for(;;){
 				ip--;
 				
+				/*Se já tentei todas opções da pilha e mesmo assim não resolvi o sudoku, 
+				então o sudoku não tem solução*/
 				if(ip==-1) return false;
 				else{
+					/*Desempilho um ramo que 
+					pode conter uma solução*/
 					s=Q[ip].s;
+					/*Recupero opções pra linha, coluna e setor*/
 					podeLin=Q[ip].pl; podeCol=Q[ip].pc; podeSet=Q[ip].ps;
+
+					/*Posição de referencia utilizada para fazer a busca*/
 					px=i=Q[ip].x; py=j=Q[ip].y;
 					
 					a=(i/3); b=(j/3); set=a*3+b;
@@ -194,6 +202,7 @@ bool solve(V& s){
 					
 					for(i=Q[ip].le+1;i<10;i++)
 						if((y>>i)&0x1){
+							/*Empilho opções restantes*/
 							Q[ip]=st(s,podeLin,podeCol,podeSet,i,px,py);
 							ip++;
 							s.insert(px*9+py,i);
@@ -213,16 +222,16 @@ bool solve(V& s){
 					
 				if(x>0){
 					ns++;
-					//Atualiza linha
+					//Atualiza opções pra linha
 					y=podeLin.get(i); y&=hel[x]; podeLin.insert(i,y);
-					//Atualiza coluna
+					//Atualiza opções pra coluna
 					y=podeCol.get(j); y&=hel[x]; podeCol.insert(j,y);
-					//Atualiza setor
+					//Atualiza opções pro setor
 					y=podeSet.get(set); y&=hel[x]; podeSet.insert(set,y);
 				}
 			}
 		
-		
+		/*Caso eu já tenha preenchido todas 81 casas, então eu resolvi o sudoku*/
 		if(ns==81){ print(s);  return true; }
 		
 		/* Atualiza opções para cada linha e coluna*/
