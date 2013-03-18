@@ -140,11 +140,9 @@ dy = [-1,  0,  1, -1,  1, -1,  0,  1];
 """
 Heurística que estima a distancia para o destino:
 
-H(p, t) = (p.x - t.x)^2 + (p.y - t.y)
+H(p, t) = sqrt((p.x - t.x)^2 + (p.y - t.y)^2)
 
 Nesse código utilizamos o quadrado da distância euclidiana como estimativa.
-(é um métrica topologicamente equivalente a euclidiana normal, utilzamos desse 
-modo apenas por questão de desempenho)
 """
 
 def H(s, t):
