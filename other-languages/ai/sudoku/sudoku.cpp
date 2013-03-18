@@ -236,13 +236,16 @@ bool solve(V& s){
 					y=podeLin.get(i); y&=podeCol.get(j); y&=podeSet.get(set); 
 					x=lg[y];
 					if(x>0){
+						/*Insere possivel valor pra posição i, j da grade*/
 						s.insert(i*9+j,x);
+						/*bloqueia x como opção para linha i, coluna j e setor set*/
 						y=podeLin.get(i); y&=hel[x]; podeLin.insert(i,y);
 						y=podeCol.get(j); y&=hel[x]; podeCol.insert(j,y);
 						y=podeSet.get(set); y&=hel[x]; podeSet.insert(set,y);
 						ok=true;
 					}else if(y==0)  goto init; 
 					else{
+						/*opções pra pra posição i, j*/
 						x=ones[y]; 
 						if(x<mi){ mi=x; l=y; px=i; py=j; }
 					}
