@@ -27,7 +27,11 @@ def luhn_checksum(card_number):
     for d in even_digits:
         checksum += sum(digits_of(d*2))
     return checksum % 10
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 804805e33319547bd143e150250f7473178c366a
 def calculate_luhn(partial_card_number):
     check_digit = luhn_checksum(int(partial_card_number) * 10)
     return check_digit if check_digit == 0 else 10 - check_digit
