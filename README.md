@@ -2,8 +2,6 @@
 
 Vamos reunir 1001 implementações de algoritmos em um livro digital interativo que servirá principalmente de aprendizado para quem colaborar e guia/referência para jovens aspirantes a programadores. Do Bozosort ao crivo de Eratóstenes, teremos de tudo!
 
-Página do projeto: [http://labs.hacktoon.com/src/1001](http://labs.hacktoon.com/src/1001)
-
 Os códigos devem estar de acordo com os requisitos abaixo:
 
 * Siga este modelo de arquivo: [https://github.com/karlisson/1001/blob/master/modelo.txt](https://github.com/karlisson/1001/blob/master/modelo.txt)
