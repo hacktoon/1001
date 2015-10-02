@@ -30,6 +30,9 @@ class Stack:
     def __str__(self):
         return "{}".format(self._stack)
 
+    def top(self):
+        return self._stack[-1]
+
     def push(self, value):
         self._stack.append(value)
 
@@ -43,8 +46,10 @@ if __name__ == "__main__":
     pilha.push(2)
     pilha.push(3)
     print(pilha)
+    print(pilha.top())
     print("Tamanho da pilha: {}".format(len(pilha)))
 
     pilha.pop()
     print(pilha)
     print("Tamanho da pilha: {}".format(len(pilha)))
+    print(pilha.top())
